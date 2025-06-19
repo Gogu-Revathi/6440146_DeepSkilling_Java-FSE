@@ -1,0 +1,29 @@
+📌 Java Exercise: Financial Forecasting Using Recursion
+
+Description:
+Forecasts future value of an investment using a recursive formula based on the compound interest model.
+
+ Features:
+- Accepts present value, rate, and duration
+- Uses recursion to compute FV = PV × (1 + r)^n
+- Handles input with validation
+- Provides time complexity analysis
+
+ Files:
+- FinancialForecast.java → Main recursive app
+
+ Sample Output:
+ Enter Present Value (₹): 10000
+ Enter Annual Growth Rate (%): 10
+ Enter Number of Years: 3
+ Future Value after 3 years: ₹13,310.00
+ Time Complexity: O(n)
+
+ Concepts Used:
+- Recursion
+- Mathematical modeling
+- try-with-resources
+- Decimal formatting
+
+ Optimization Tip:
+Use memoization or iteration for large n to reduce call stack usage.
