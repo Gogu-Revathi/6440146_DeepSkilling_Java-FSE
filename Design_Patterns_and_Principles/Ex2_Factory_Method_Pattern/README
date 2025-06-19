@@ -1,0 +1,33 @@
+📌 Java Exercise: Factory Method Pattern - Document Creator
+
+ Description:
+Implements the Factory Method Design Pattern to dynamically create document objects (Word, PDF, Excel) at runtime.
+
+ Features:
+- Factory class hierarchy for document creation.
+- User selects which document type to create via console menu.
+- Clean OOP structure.
+
+ Files:
+- Document.java                 → Interface
+- WordDocument, PdfDocument... → Concrete document types
+- DocumentFactory.java         → Abstract factory
+- WordDocumentFactory.java     → Concrete factories
+- FactoryDemo.java             → Main driver class
+
+ Sample Output:
+Document Creator
+1. Create Word Document
+2. Create PDF Document
+3. Create Excel Document
+4. Exit
+Choose: 2
+ Opening PDF Document...
+
+ Concepts Used:
+- Interfaces and inheritance
+- Factory Method Pattern
+- Encapsulation
+
+⚠ Note:
+Used try-with-resources for Scanner to avoid resource leak.
