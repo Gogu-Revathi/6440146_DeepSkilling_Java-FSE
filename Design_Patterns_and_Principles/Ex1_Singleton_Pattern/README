@@ -1,0 +1,24 @@
+📌 Java Exercise: Singleton Pattern Logger
+This exercise demonstrates the Singleton Design Pattern using a Logger class that ensures only one instance is created throughout the program.
+
+Features:
+- Implements the Singleton design pattern.
+- Logs messages with timestamps.
+- Confirms single instance reuse across different calls.
+Files:
+- Logger.java → Singleton class.
+- Main.java   → Test class to demonstrate functionality.
+
+Sample Output:
+[2025-06-18 20:15:22] Logging: First log message
+[2025-06-18 20:15:22] Logging: Second log message
+Logger instances same? true
+
+Concepts Used:
+- Static instance variable
+- Private constructor
+- Public static `getInstance()` method
+
+ Additional Ideas:
+- Extend to log to a file
+- Use logger in other exercises
