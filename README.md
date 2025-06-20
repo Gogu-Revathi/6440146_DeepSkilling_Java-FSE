@@ -26,7 +26,7 @@ JAVA-FSE_DeepSkilling/
 │   ├── HandsOn10_MVC_Pattern/
 │   └── HandsOn11_Dependency_Injection/
 │
-├── Week2_Data_Structures_and_Algorithms/
+├── Week1_Data_Structures_and_Algorithms/
 │   ├── Exercise1_Inventory_Management/
 │   ├── Exercise2_Ecommerce_Search_Function/
 │   ├── Exercise3_Sorting_Customer_Orders/
@@ -58,7 +58,7 @@ Each pattern is implemented with an interactive CLI for better understanding.
 
 ---
 
-## 📊 Week 2 – Data Structures and Algorithms
+## 📊 Week 1 – Data Structures and Algorithms
 
 | # | Exercise Title                         | Concepts Applied                    |
 |---|----------------------------------------|-------------------------------------|
