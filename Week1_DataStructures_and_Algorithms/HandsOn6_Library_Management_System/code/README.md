@@ -1,38 +1,34 @@
-# Task Management System (Singly Linked List)
+# Library Management System (Search)
 
 ## Scenario
-This program manages tasks dynamically using a singly linked list.
+This system allows users to search books by title using both linear and binary search algorithms.
 
 ## Project Structure
-- `Task.java`: Model class
-- `TaskNode.java`: Linked list node
-- `TaskList.java`: List operations (add, search, delete, view)
-- `TaskApp.java`: Interactive user input
+- `Book.java`: Book model
+- `LibrarySearch.java`: Linear and Binary search methods
+- `LibraryApp.java`: Command-line interface
 
-## Linked List Operations & Complexity
+## Search Algorithms & Time Complexity
 
-| Operation | Description         | Time Complexity |
-|-----------|---------------------|------------------|
-| Add       | Append at end       | O(n)             |
-| Search    | Search by task ID   | O(n)             |
-| Traverse  | View all tasks      | O(n)             |
-| Delete    | Remove by ID        | O(n)             |
+| Algorithm     | Sorted Required | Best Case | Worst Case |
+|---------------|-----------------|-----------|------------|
+| Linear Search | No              | O(1)      | O(n)       |
+| Binary Search | Yes             | O(1)      | O(log n)   |
 
 ## Sample Output
 ```
-1. Add Task
-2. View All Tasks
-3. Search Task by ID
-4. Delete Task
+1. View All Books
+2. Search by Title (Linear Search)
+3. Search by Title (Binary Search)
 0. Exit
 ```
-
-## Advantages over Arrays
-- No fixed size limit
-- Insert/delete without shifting
 
 ## How to Run
 ```
 javac *.java
-java TaskApp
+java LibraryApp
 ```
+
+## Summary
+- Linear Search is simple but slower for large data
+- Binary Search is efficient but requires sorted data

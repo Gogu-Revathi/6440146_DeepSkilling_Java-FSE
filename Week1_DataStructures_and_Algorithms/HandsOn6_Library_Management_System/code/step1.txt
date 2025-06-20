@@ -1,10 +1,8 @@
-Step 1: Why Linked Lists?
-Dynamic memory allocation (no fixed size)
+Step 1: Why These Algorithms?
+Algorithm	Best Case	Average Case	Worst Case
+Linear Search	O(1)	O(n)	O(n)
+Binary Search	O(1)	O(log n)	O(log n)
 
-Insert/delete without shifting elements
+Linear Search: Simple, no sorting needed.
 
-Operation	Time Complexity
-Add (end)	O(n)
-Search	O(n)
-Traverse	O(n)
-Delete	O(n)
+Binary Search: Efficient, but requires sorted data.
