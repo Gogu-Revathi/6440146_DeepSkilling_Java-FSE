@@ -1,0 +1,16 @@
+ Step 1: Why DSA Matters
+Why Data Structures & Algorithms?
+Efficient inventory systems must:
+
+Allow fast product lookup (e.g., by ID)
+
+Handle large datasets dynamically
+
+Avoid redundancy and enable quick updates/deletions
+
+Best Data Structure:
+HashMap<String, Product> is ideal for:
+
+Constant-time lookup, update, and delete (O(1) average case)
+
+Fast access by productId (key)
