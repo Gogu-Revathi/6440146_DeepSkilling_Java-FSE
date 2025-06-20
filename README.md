@@ -91,15 +91,4 @@ java MainClassName  # Replace with the main file name like StrategyPatternDemo
 ```
 Each folder has a designated main file (like `SingletonPatternDemo.java`, `StrategyPatternDemo.java`, etc.)
 
----
 
-## ✅ Outcome
-- Strengthened core Java and OOP design skills
-- Implemented 18+ real-world hands-on projects
-- Code follows clean, modular, and testable design principles
-- GitHub-ready for showcasing to recruiters and mentors
-
----
-
-## 🔗 Connect
-Feel free to explore and give feedback or suggestions!
