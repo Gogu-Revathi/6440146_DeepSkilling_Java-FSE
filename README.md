@@ -1,28 +1,105 @@
-CognizantTasks – Java Programming Exercises
+# Java Deep Skilling Hands-On Projects – Cognizant Nurture 4.0
 
-This repository contains four core Java programming tasks completed as part of the Cognizant Internship Program. Each task demonstrates important object-oriented programming principles and real-world applications.
+This repository contains Java-based hands-on exercises developed as part of **Cognizant Digital Nurture 4.0 – Deep Skilling Program**. The work is categorized under two main domains:
 
-Folder Structure
+- **Week 1: Design Principles and Patterns**
+- **Week 2: Data Structures and Algorithms**
 
-Overview of Exercises
+Each domain consists of multiple structured exercises that demonstrate real-world implementation of OOP, design patterns, data structures, algorithm optimization, and interactive Java applications.
 
-1. SingletonPatternLogger
-Implements the Singleton Design Pattern to ensure only one instance of a Logger class exists throughout the application. Logs messages with timestamps.
+---
 
-2. FactoryMethodPattern
-Applies the Factory Method Design Pattern to dynamically create different types of documents (Word, PDF, Excel) based on user input through a console menu.
+## 📁 Folder Structure
 
-3. EcommerceSearch
-Simulates an e-commerce platform where products can be searched using both linear and binary search techniques. Includes performance comparison and interactive search features.
+```
+JAVA-FSE_DeepSkilling/
+├── Week1_Design_Principles_and_Patterns/
+│   ├── HandsOn1_Singleton_Pattern/
+│   ├── HandsOn2_Factory_Method_Pattern/
+│   ├── HandsOn3_Builder_Pattern/
+│   ├── HandsOn4_Adapter_Pattern/
+│   ├── HandsOn5_Decorator_Pattern/
+│   ├── HandsOn6_Proxy_Pattern/
+│   ├── HandsOn7_Observer_Pattern/
+│   ├── HandsOn8_Strategy_Pattern/
+│   ├── HandsOn9_Command_Pattern/
+│   ├── HandsOn10_MVC_Pattern/
+│   └── HandsOn11_Dependency_Injection/
+│
+├── Week2_Data_Structures_and_Algorithms/
+│   ├── Exercise1_Inventory_Management/
+│   ├── Exercise2_Ecommerce_Search_Function/
+│   ├── Exercise3_Sorting_Customer_Orders/
+│   ├── Exercise4_Employee_Management/
+│   ├── Exercise5_Task_Management_LinkedList/
+│   ├── Exercise6_Library_Management_Searching/
+│   └── Exercise7_Financial_Forecasting/
+```
 
-4. FinancialForecasting
-Calculates the future value of an investment using recursion based on user input (present value, growth rate, number of years). Demonstrates recursion and input handling with formatting.
+---
 
-How to Run
+## 🧠 Week 1 – Design Principles and Patterns
 
-Navigate to any subfolder and run:
+| # | Exercise                              | Design Pattern Implemented         |
+|---|---------------------------------------|------------------------------------|
+| 1 | Singleton Pattern                     | Singleton                          |
+| 2 | Factory Method Pattern                | Factory                            |
+| 3 | Builder Pattern                       | Builder                            |
+| 4 | Adapter Pattern                       | Adapter                            |
+| 5 | Decorator Pattern                     | Decorator                          |
+| 6 | Proxy Pattern                         | Proxy                              |
+| 7 | Observer Pattern                      | Observer                           |
+| 8 | Strategy Pattern                      | Strategy                           |
+| 9 | Command Pattern                       | Command                            |
+|10 | MVC Pattern                           | Model-View-Controller (MVC)        |
+|11 | Dependency Injection                  | Inversion of Control (IoC)         |
+
+Each pattern is implemented with an interactive CLI for better understanding.
+
+---
+
+## 📊 Week 2 – Data Structures and Algorithms
+
+| # | Exercise Title                         | Concepts Applied                    |
+|---|----------------------------------------|-------------------------------------|
+| 1 | Inventory Management System           | HashMap, CRUD, Time Complexity      |
+| 2 | E-commerce Platform Search Function   | Linear vs Binary Search             |
+| 3 | Sorting Customer Orders               | Bubble Sort, Quick Sort             |
+| 4 | Employee Management System            | Array Operations & Traversal        |
+| 5 | Task Management System                | Singly Linked List Implementation   |
+| 6 | Library Management System             | Linear and Binary Search            |
+| 7 | Financial Forecasting                 | Recursion, Memoization Optimization |
+
+All exercises include time complexity analysis and clean code practices.
+
+---
+
+## 🛠️ Technologies Used
+- Java SE 8+
+- OOP Principles
+- Collections Framework
+- Design Patterns
+- CLI Interactivity (Scanner)
+
+---
+
+## 📌 How to Run
 
 ```bash
 javac *.java
-java MainClassName
+java MainClassName  # Replace with the main file name like StrategyPatternDemo
+```
+Each folder has a designated main file (like `SingletonPatternDemo.java`, `StrategyPatternDemo.java`, etc.)
 
+---
+
+## ✅ Outcome
+- Strengthened core Java and OOP design skills
+- Implemented 18+ real-world hands-on projects
+- Code follows clean, modular, and testable design principles
+- GitHub-ready for showcasing to recruiters and mentors
+
+---
+
+## 🔗 Connect
+Feel free to explore and give feedback or suggestions!
