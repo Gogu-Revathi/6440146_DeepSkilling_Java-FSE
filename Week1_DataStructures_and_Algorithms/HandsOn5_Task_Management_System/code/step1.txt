@@ -1,0 +1,10 @@
+Step 1: Why Linked Lists?
+Dynamic memory allocation (no fixed size)
+
+Insert/delete without shifting elements
+
+Operation	Time Complexity
+Add (end)	O(n)
+Search	O(n)
+Traverse	O(n)
+Delete	O(n)

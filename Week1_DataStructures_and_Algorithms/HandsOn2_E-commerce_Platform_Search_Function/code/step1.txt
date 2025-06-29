@@ -1,0 +1,7 @@
+Step 1: Sorting Algorithms Explained
+Algorithm	Best Case	Average Case	Worst Case
+Bubble Sort	O(n)	O(n²)	O(n²)
+Quick Sort	O(n log n)	O(n log n)	O(n²)
+
+Quick Sort is preferred in most real-world use cases for performance.
+

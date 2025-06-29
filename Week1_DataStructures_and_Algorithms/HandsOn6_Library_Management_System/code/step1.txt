@@ -1,0 +1,8 @@
+Step 1: Why These Algorithms?
+Algorithm	Best Case	Average Case	Worst Case
+Linear Search	O(1)	O(n)	O(n)
+Binary Search	O(1)	O(log n)	O(log n)
+
+Linear Search: Simple, no sorting needed.
+
+Binary Search: Efficient, but requires sorted data.

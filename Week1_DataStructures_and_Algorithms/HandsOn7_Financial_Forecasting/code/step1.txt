@@ -1,0 +1,8 @@
+Step 1: Why Use Recursion?
+Recursion breaks a complex problem (predicting compound growth over multiple years) into smaller subproblems.
+
+Ideal for problems where current output depends on previous result.
+
+ Formula:
+Future Value = Present Value * (1 + Growth Rate)^Years
+We'll use recursion to implement exponentiation and calculate the compounded growth.

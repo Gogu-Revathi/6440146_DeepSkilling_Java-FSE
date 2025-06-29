@@ -1,0 +1,12 @@
+Step 1: Why Arrays?
+Stored contiguously in memory (fast indexing)
+
+Fixed-size, simple to manage for small/known-size datasets
+
+Time complexities:
+
+Operation	Time Complexity
+Add	O(1) (if next index known)
+Search	O(n)
+Traverse	O(n)
+Delete	O(n) (requires shifting)
